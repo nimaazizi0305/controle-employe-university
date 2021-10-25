@@ -123,7 +123,7 @@ background-color: rgb(255, 226, 0);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>../Python/icons/icons/search_icon.png</normaloff>../Python/icons/icons/search_icon.png</iconset>
+             <normaloff>../../.designer/Python/icons/icons/search_icon.png</normaloff>../../.designer/Python/icons/icons/search_icon.png</iconset>
            </property>
           </widget>
           <widget class="QPushButton" name="btn_search_by_date">
@@ -151,7 +151,7 @@ background-color: rgb(255, 226, 0);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>../Python/icons/icons/search_icon.png</normaloff>../Python/icons/icons/search_icon.png</iconset>
+             <normaloff>../../.designer/Python/icons/icons/search_icon.png</normaloff>../../.designer/Python/icons/icons/search_icon.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -227,7 +227,7 @@ background-color: rgb(255, 226, 0);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>../Python/icons/icons/delete_icon.png</normaloff>../Python/icons/icons/delete_icon.png</iconset>
+             <normaloff>../../.designer/Python/icons/icons/delete_icon.png</normaloff>../../.designer/Python/icons/icons/delete_icon.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -405,7 +405,7 @@ background-color: rgb(255, 226, 0);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>../Python/icons/icons/show_data_icon.png</normaloff>../Python/icons/icons/show_data_icon.png</iconset>
+             <normaloff>../../.designer/Python/icons/icons/show_data_icon.png</normaloff>../../.designer/Python/icons/icons/show_data_icon.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -439,7 +439,7 @@ background-color: rgb(255, 226, 0);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>../Python/icons/icons/show_data_icon.png</normaloff>../Python/icons/icons/show_data_icon.png</iconset>
+             <normaloff>../../.designer/Python/icons/icons/show_data_icon.png</normaloff>../../.designer/Python/icons/icons/show_data_icon.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -541,7 +541,7 @@ background-color: rgb(255, 226, 0);</string>
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>../Python/icons/icons/delete_icon.png</normaloff>../Python/icons/icons/delete_icon.png</iconset>
+             <normaloff>../../.designer/Python/icons/icons/delete_icon.png</normaloff>../../.designer/Python/icons/icons/delete_icon.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -578,7 +578,7 @@ background-color: rgb(255, 226, 0);</string>
      </widget>
      <widget class="QWidget" name="enter">
       <attribute name="title">
-       <string>ورود</string>
+       <string>ورود و خروج</string>
       </attribute>
       <widget class="QFrame" name="frame_2">
        <property name="geometry">
@@ -611,13 +611,13 @@ background-color: rgb(255, 226, 0);</string>
          <string notr="true">background-color: rgb(255, 255, 127);</string>
         </property>
         <property name="title">
-         <string>قسمت ورود</string>
+         <string>قسمت ورود و خروج</string>
         </property>
         <widget class="QLabel" name="lbl_enetr_code">
          <property name="geometry">
           <rect>
            <x>400</x>
-           <y>170</y>
+           <y>70</y>
            <width>81</width>
            <height>16</height>
           </rect>
@@ -630,7 +630,7 @@ background-color: rgb(255, 226, 0);</string>
          <property name="geometry">
           <rect>
            <x>192</x>
-           <y>170</y>
+           <y>70</y>
            <width>191</width>
            <height>20</height>
           </rect>
@@ -643,7 +643,7 @@ background-color: rgb(255, 226, 0);</string>
          <property name="geometry">
           <rect>
            <x>230</x>
-           <y>230</y>
+           <y>130</y>
            <width>131</width>
            <height>51</height>
           </rect>
@@ -664,7 +664,7 @@ background-color: rgb(255, 226, 0);</string>
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../Python/icons/icons/login_enter.png</normaloff>../Python/icons/icons/login_enter.png</iconset>
+           <normaloff>../../.designer/Python/icons/icons/login_enter.png</normaloff>../../.designer/Python/icons/icons/login_enter.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -673,77 +673,11 @@ background-color: rgb(255, 226, 0);</string>
           </size>
          </property>
         </widget>
-       </widget>
-      </widget>
-     </widget>
-     <widget class="QWidget" name="Exit">
-      <attribute name="title">
-       <string>خارج شدن</string>
-      </attribute>
-      <widget class="QFrame" name="frame_3">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>10</y>
-         <width>601</width>
-         <height>531</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 242, 89);</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-       <widget class="QGroupBox" name="exit_part">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>9</y>
-          <width>581</width>
-          <height>511</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 255, 127);</string>
-        </property>
-        <property name="title">
-         <string>قسمت ورود</string>
-        </property>
-        <widget class="QLabel" name="lbl_exit_code">
-         <property name="geometry">
-          <rect>
-           <x>400</x>
-           <y>170</y>
-           <width>81</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>کد  کارمند : </string>
-         </property>
-        </widget>
-        <widget class="QLineEdit" name="enter_exit_code">
-         <property name="geometry">
-          <rect>
-           <x>192</x>
-           <y>170</y>
-           <width>191</width>
-           <height>20</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-        </widget>
         <widget class="QPushButton" name="btn_exit">
          <property name="geometry">
           <rect>
            <x>230</x>
-           <y>230</y>
+           <y>300</y>
            <width>131</width>
            <height>51</height>
           </rect>
@@ -764,7 +698,7 @@ background-color: rgb(255, 226, 0);</string>
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../Python/icons/icons/exit.png</normaloff>../Python/icons/icons/exit.png</iconset>
+           <normaloff>../../.designer/Python/icons/icons/exit.png</normaloff>../../.designer/Python/icons/icons/exit.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -773,12 +707,38 @@ background-color: rgb(255, 226, 0);</string>
           </size>
          </property>
         </widget>
+        <widget class="QLineEdit" name="enter_exit_code">
+         <property name="geometry">
+          <rect>
+           <x>192</x>
+           <y>240</y>
+           <width>191</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lbl_exit_code">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>240</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>کد  کارمند : </string>
+         </property>
+        </widget>
        </widget>
       </widget>
      </widget>
      <widget class="QWidget" name="Edite">
       <attribute name="title">
-       <string>ویرایش </string>
+       <string>بخش کارمندان</string>
       </attribute>
       <widget class="QFrame" name="frame_4">
        <property name="geometry">
@@ -864,7 +824,7 @@ background-color: rgb(255, 226, 0);</string>
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../Python/icons/icons/add-user.png</normaloff>../Python/icons/icons/add-user.png</iconset>
+           <normaloff>../../.designer/Python/icons/icons/add-user.png</normaloff>../../.designer/Python/icons/icons/add-user.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -962,11 +922,11 @@ background-color: rgb(255, 226, 0);</string>
           <string notr="true">background-color: rgb(196, 255, 234);</string>
          </property>
          <property name="text">
-          <string>سرچ برای ویرایش</string>
+          <string>جستجو برای ویرایش</string>
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../Python/icons/icons/search_icon.png</normaloff>../Python/icons/icons/search_icon.png</iconset>
+           <normaloff>../../.designer/Python/icons/icons/search_icon.png</normaloff>../../.designer/Python/icons/icons/search_icon.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -1039,7 +999,7 @@ background-color: rgb(255, 226, 0);</string>
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../Python/icons/icons/edite_icon.png</normaloff>../Python/icons/icons/edite_icon.png</iconset>
+           <normaloff>../../.designer/Python/icons/icons/edite_icon.png</normaloff>../../.designer/Python/icons/icons/edite_icon.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -1192,7 +1152,7 @@ background-color: rgb(255, 226, 0);</string>
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../Python/icons/icons/delete_icon.png</normaloff>../Python/icons/icons/delete_icon.png</iconset>
+           <normaloff>../../.designer/Python/icons/icons/delete_icon.png</normaloff>../../.designer/Python/icons/icons/delete_icon.png</iconset>
          </property>
          <property name="iconSize">
           <size>
